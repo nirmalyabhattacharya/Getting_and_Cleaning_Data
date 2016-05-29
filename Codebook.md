@@ -1,7 +1,6 @@
----
-title: "Getting and Cleaning Data"
-output: html_document
----
+
+# "Getting and Cleaning Data"  
+
 
 
 
