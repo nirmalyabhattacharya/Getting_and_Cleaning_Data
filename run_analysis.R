@@ -69,7 +69,7 @@ train_data <- cbind(as.data.table(subject_train), y_train, X_train)
 
 
 
-#Combine the test and train data into one
+# Combine the test and train data into one
 
 combined = rbind(test_data, train_data)
 
