@@ -161,7 +161,7 @@ melted_data = melt(combined, id = id_labels, measure.vars = data_labels)
 # Apply mean function to dataset using dcast function
 tidy_dataset   = dcast(melted_data, Subject_ID+Activity_ID+Activity_Label ~ variable, mean)
 ```
-####### Write the table into a new CSV file with the name _**"Independent_Tidy_Dataset.csv"**_.  
+####### Write the table into a new text file with the name _**"Independent_Tidy_Dataset.txt"**_.  
 ```{r}
-write.table(tidy_dataset, file = "./Independent_Tidy_Dataset.csv",sep =",",row.names=FALSE)
+write.table(tidy_dataset, file = "./Independent_Tidy_Dataset.txt",sep ="\t",row.names=FALSE)
 ```

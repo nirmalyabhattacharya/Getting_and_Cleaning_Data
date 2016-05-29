@@ -34,4 +34,4 @@ You should create one R script called run_analysis.R that does the following.
 3. Copy the _"run_analysis.R"_ file in the newly created folder.
 4. Please make sure that you have the packages **_"data.table"_** and **_"reshape2"_** installed.
 5. Run the program.
-6. A CSV file with the name _"Independent_Tidy_Dataset.csv"_ is produced. This file contains data in a tidy format.
+6. A text file with the name _"Independent_Tidy_Dataset.txt"_ is produced. This file contains data in a tidy format.
